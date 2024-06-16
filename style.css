@@ -627,7 +627,7 @@ header .bx{
     color: #18a0d5;
 }
 .home{
-    margin-top: 3.5rem;
+    margin-top: 4rem;
 }
 .home-content{
    width: 100%;
@@ -649,8 +649,8 @@ header .bx{
         gap:30px
     }
     .about-card{
-        width:60%;
-        height: 280px;
+        width:50%;
+        height: 200px;
     }
     .abt-label{
         font-size: 15px;
