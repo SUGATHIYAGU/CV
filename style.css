@@ -646,21 +646,21 @@ header .bx{
     opacity: 0.7;
 }
     .education{
-        margin-top:3rem;
+        margin-top:5rem;
     }
     .about-content{
         gap:30px
     }
     .about-card{
-        width:80%;
-        height: 400px;
+        width:40%;
+        height: 200px;
     }
     .abt-label{
-        font-size: 15px;
+        font-size: 12px;
         font-weight:300;
     }
     .back-card-data ul li{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 200;;
     }
    .contact-ct{
