@@ -627,7 +627,7 @@ header .bx{
     color: #18a0d5;
 }
 .home{
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 .home-content{
    width: 100%;
@@ -645,12 +645,15 @@ header .bx{
 .profile-img img{
     opacity: 0.7;
 }
+    .education{
+        margin-top:3rem;
+    }
     .about-content{
         gap:30px
     }
     .about-card{
-        width:50%;
-        height: 200px;
+        width:80%;
+        height: 400px;
     }
     .abt-label{
         font-size: 15px;
