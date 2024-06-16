@@ -571,8 +571,8 @@ header .bx{
         gap:30px
     }
     .about-card{
-        width:80%;
-        height: 300px;
+        width:50%;
+        height: 200px;
     }
     .abt-label{
         font-size: 15px;
