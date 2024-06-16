@@ -595,6 +595,7 @@ header .bx{
 }
 
 
+
 @media only screen and (max-width:700px){
     header .bx{
         display: block;
@@ -626,7 +627,7 @@ header .bx{
     color: #18a0d5;
 }
 .home{
-    margin-top: 4rem;
+    margin-top: 3.5rem;
 }
 .home-content{
    width: 100%;
@@ -648,8 +649,8 @@ header .bx{
         gap:30px
     }
     .about-card{
-        width:80%;
-        height: 300px;
+        width:60%;
+        height: 280px;
     }
     .abt-label{
         font-size: 15px;
@@ -670,6 +671,7 @@ header .bx{
     flex-direction: column;
    }
 }
+
 
 
 @media only screen and (max-width:600px){
