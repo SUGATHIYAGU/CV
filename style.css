@@ -651,7 +651,7 @@ header .bx{
  .about-content{
      grid-template-columns: repeat(2, 1fr);
      gap:30px;
-     padding:0 15px;
+     padding:0 30px;
  }
     .about-card{
         width:100%;
