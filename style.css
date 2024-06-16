@@ -548,6 +548,9 @@ header .bx{
     cursor: pointer;
     color: #18a0d5;
 }
+.home{
+    margin-top: 2rem;
+}
 .home-content{
    width: 100%;
    padding: 20px 15px;
@@ -570,6 +573,14 @@ header .bx{
     .about-card{
         width:80%;
         height: 300px;
+    }
+    .abt-label{
+        font-size: 15px;
+        font-weight:300;
+    }
+    .back-card-data ul li{
+        font-size: 16px;
+        font-weight: 200;;
     }
    .contact-ct{
     margin-top: 1px;
@@ -624,6 +635,7 @@ header .bx{
     .about-content{
         gap:30px
     }
+  
    .contact-ct{
     margin-top: 1px;
   }
@@ -634,301 +646,4 @@ header .bx{
    .contact-row,.list{
     flex-direction: column;
    }
-}
-
-/*
-
-
-@media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: landscape) {
-    header .bx{
-        display: block;
-        font-size: 25px;
-        margin-right: 1rem;
-    }
-    header.sticky{
-        background-color: var(--bg-color);
-    }
-    .list{
-        background-color: #201f20;
-        position: fixed;
-        top: 0;
-        right: -250px;
-        width: 150px;
-        height: 150vh;
-        padding-top: 50px;
-        text-align: left;
-        z-index: 2;
-        transition: right 0.5s ease;
-    }
-    .list a{
-        display: block;
-        margin: 25px;
-    }
-    .list .bx{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-        color: #18a0d5;
-    }
-    .home{
-        margin-top: 3rem;
-    }
-    .profile-img{
-        display: flex;
-        position: relative;
-        width: 30%;
-        height: 60vh;
-        right: 1.5rem;
-        animation: FloatPic 10s ease-in-out infinite;
-    }
-    .profile-img img{
-        opacity: 0.7;
-    }
-    .education,.about{
-        margin-top: 4rem;
-    }
-    .about-content {
-        display: flex;
-        gap: 3.5rem;
-    }
-    .about-card {
-        width: 100%;
-        height: 50vh;
-        font-size: 1.5rem;
-        perspective: none;
-    }
-    .card {
-        width: 125%;
-        height: 65vh;
-    }
-    .front-card img {
-        width: 100%;
-        height: 60vh;
-        border-radius: 10px;
-    }
-    .abt-label {
-        font-size: 10px;
-        font-weight: 500;
-        margin-right: 10px;
-    }
-    .back-card-data ul li {
-        font-size: 11px;
-        font-weight: 300;
-    }
-    .contact-ct{
-        margin-top: 1rem;
-    }
-    .contact-row,.list{
-        flex-direction: column;
-    }
-}
-
-
-
-@media only screen and (max-width: 700px){
-
-    header .bx{
-        display: block;
-        font-size: 25px;
-        margin-right: 1rem;
-    }
-
-.list{
-    background-color: #201f20;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 150px;
-    height: 150vh;
-    padding-top: 50px;
-    text-align: left;
-    z-index: 2;
-    transition: right 0.5s ease ;
-}
-.list a{
-    display: block;
-    margin: 25px;
-}
-.list .bx{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-    color: #18a0d5;
-}
-.home-content{
-   width: 100%;
-   padding: 20px 15px;
-   font-size: 14px;
-   }
-  
-.home{
-    margin-top: 6rem;
-   }
-   .profile-img{
-    display: flex;
-    position: relative;
-    width: 30%;
-    height: 60vh;
-    right: 3rem;
-    animation: FloatPic 10s ease-in-out infinite;
-}
-.profile-img img{
-    opacity: 0.7;
-}
-body{
-    font-size: 14px;
-   }
-h1,h2,h3{
-    font-size: 16px;
-   }
-.education{
-    margin-top: 6rem;
-   }
-.edu-heading{
-    padding-bottom: 2rem;
-   }
-.edu-list{
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-.about-content{
-    display: flex;
-    gap: 3rem;
-
-}
-.about-card{
-    width:100%;
-    height: 60vh;
-    font-size: 1.5rem;
-    perspective: none;
-
-  
-}
-.card {
-    width: 120%;
-    height: 70vh;
-}
-.front-card img {
-    width: 100%;
-    height: 65vh;
-    border-radius: 10px;
-}
-.abt-label {
-    font-size: 8px;
-    font-weight: 600;
-    margin-right: 10px;
-}
-.back-card-data ul li {
-    font-size: 10px;
-    font-weight: 300;
-}
-.contact-ct{
-    margin-top: 1rem;
-}
-.contact-row,.list{
-    flex-direction: column;
-}
-}
-
-
-
-
-@media only screen and (max-width: 600px){
-
-    header .bx{
-        display: block;
-        font-size: 25px;
-        margin-right: 1rem;
-    }
-
-.list{
-    background-color: #201f20;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 150px;
-    height: 150vh;
-    padding-top: 50px;
-    text-align: left;
-    z-index: 2;
-    transition: right 0.5s ease ;
-}
-.list a{
-    display: block;
-    margin: 25px;
-}
-.list .bx{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-    color: #18a0d5;
-}
-.home-content{
-   width: 100%;
-   padding: 20px 15px;
-   font-size: 14px;
-   }
-  
-.home{
-    margin-top: 1rem;
-   }
-   .profile-img{
-   display: none;
-   }
-body{
-    font-size: 14px;
-   }
-h1,h2,h3{
-    font-size: 16px;
-   }
-.education,.about{
-    margin-top: 2rem;
-   }
-.edu-heading{
-    padding-bottom: 2rem;
-   }
-.edu-list{
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-.about-content{
-    flex-direction: column;
-
-}
-.about-card{
-    margin-bottom: 2rem;
-  
-}
-.card{
-    width: 150%;
-    height: 40vh;
-}
-.front-card img{
-    width: 100%;
-    height: 35vh;
-    border-radius: 10%;
-  }
-  .abt-label{
-    font-size: 14px;
-    font-weight: 1000;
-    margin-right: 1rem;
-
-  }
-    .back-card-data ul li{
-        font-size:13px;
-        font-weight:400;
-    }
-  .contact-ct{
-    margin-top: 1px;
-  }
-  .contact-1{
-    padding-left: 0;
-      font-size:14px;
-  }
-.contact-row,.list{
-    flex-direction: column;
-}
 }
