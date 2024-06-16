@@ -648,9 +648,12 @@ header .bx{
     .education{
         margin-top:6rem;
     }
- 
+ .about-content{
+     grid-template-columns: repeat(2, 1fr);
+     gap:30px;
+ }
     .about-card{
-        width:40%;
+        width:100%;
         height: 200px;
     }
     .card{
