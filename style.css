@@ -575,13 +575,16 @@ header .bx{
     display: flex;
     position: relative;
     width: 30%;
-    height: 60vh;
+    height: 65vh;
     right: 3rem;
     animation: FloatPic 10s ease-in-out infinite;
 }
 .profile-img img{
     opacity: 0.7;
 }
+    .education{
+        margin-top:4.5;
+    }
     .about-heading{
         margin-bottom:1rem;
     }
@@ -662,7 +665,7 @@ header .bx{
     display: flex;
     position: relative;
     width: 30%;
-    height: 60vh;
+    height: 65vh;
     right: 4rem;
     animation: FloatPic 10s ease-in-out infinite;
 }
