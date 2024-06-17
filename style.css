@@ -516,7 +516,22 @@ button:hover{
 header .bx{
     display: none;
 }
-
+@media only screen and (min-width:901px) and (max-width:1024px){
+    .contact-row{
+        flex-direction: column;
+    }
+    .profile-img{
+        height: 70vh;
+        right: 3rem;
+        animation: FloatPic 10s ease-in-out infinite;
+ 
+}
+    .about-content{
+    grid-template-columns: repeat(2, 1fr);
+     gap:30px;
+     padding:0 30px;
+    }
+}
 
 @media only screen and (min-width:701px) and (max-width:900px){
     header .bx{
@@ -575,7 +590,9 @@ header .bx{
         margin-bottom:1rem;
     }
     .about-content{
-        gap:30px
+     grid-template-columns: repeat(2, 1fr);
+     gap:30px;
+     padding:0 30px;
     }
     .about-card{
         width:80%;
@@ -741,10 +758,6 @@ header .bx{
         margin-top:10px;
         margin-bottom:10px;
     }
-  
-   .contact-ct{
-    margin-top: 1px;
-  }
   .contact-1{
     padding-left: 0;
       font-size:11px;
