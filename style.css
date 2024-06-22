@@ -345,7 +345,7 @@ header.sticky{
     box-sizing: border-box;
     color: white;
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: 100%;
     padding: 0.8rem;
     position: absolute;
@@ -357,7 +357,7 @@ header.sticky{
     background: #fff;
     border-radius: 100%;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0 7px 4px 6px;
   }
   
@@ -606,6 +606,9 @@ header .bx{
         font-size: 15px;
         font-weight:300;
     }
+      .card .front-card strong {
+        font-size:1rem;
+    }
     .back-card-data ul li{
         font-size: 16px;
         font-weight: 200;;
@@ -695,6 +698,9 @@ header .bx{
         font-size: 12px;
         font-weight:300;
     }
+      .card .front-card strong {
+        font-size:1rem;
+    }
     .back-card-data ul li{
         font-size: 14px;
         font-weight: 200;;
@@ -760,6 +766,9 @@ header .bx{
      .about-cnt{
         margin-top:10px;
         margin-bottom:10px;
+    }
+    .card .front-card strong {
+        font-size:1rem;
     }
   .contact-1{
     padding-left: 0;
