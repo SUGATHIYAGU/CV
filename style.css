@@ -414,6 +414,14 @@ header.sticky{
     display: block;
   }
   
+   #cardB-webproject ul li a{
+    color: #18a0d5;
+    text-decoration: underline;
+  }
+  #cardB-webproject ul li a:hover{
+    color: white;
+
+  }
   
 
 /*-------------contact------------------------*/
