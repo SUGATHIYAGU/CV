@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded",function(){
 })
 
 
-
 var menuLists=document.getElementById("menu-list");
 function openlist(){
     menuLists.style.right="0";
@@ -44,7 +43,6 @@ function openlist(){
 function closelist(){
     menuLists.style.right="-200px";
 }
-
 
 
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxBSaTub_PPOvBrmiUsEPUXUNGU8SBhBatFPKy6igXe250hpyqXqVcOaSyOMsvZcc4kKw/exec'
