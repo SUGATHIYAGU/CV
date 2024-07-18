@@ -55,9 +55,6 @@ header{
     color: var(--main-bg-color);
     border-bottom: 3px solid transparent;
 }
-.list a:hover{
-     border-bottom: 3px solid var(--main-bg-color);
-}
 .home{
     width: 100%;
     height: 100vh;
